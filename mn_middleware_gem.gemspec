@@ -5,7 +5,7 @@
 #
 Gem::Specification.new do |spec|
   spec.name          = "mn_middleware_gem"
-  spec.version       = "1.2.0"
+  spec.version       = "1.3.0"
   spec.authors       = ["Shamim Mirzai"]
   spec.summary       = "Mumsnet middleware gem for microservices"
   spec.homepage      = "https://github.com/mumsnet/mn_middleware_gem"
