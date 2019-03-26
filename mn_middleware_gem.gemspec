@@ -5,12 +5,10 @@
 #
 Gem::Specification.new do |spec|
   spec.name          = "mn_middleware_gem"
-  spec.version       = "1.1.0"
+  spec.version       = "1.2.0"
   spec.authors       = ["Shamim Mirzai"]
   spec.summary       = "Mumsnet middleware gem for microservices"
   spec.homepage      = "https://github.com/mumsnet/mn_middleware_gem"
-
-  spec.required_ruby_version = '>= 2.5.0'
 
   # Specify which files should be added to the gem when it is released.
   spec.files         = [
