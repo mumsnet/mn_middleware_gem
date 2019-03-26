@@ -1,7 +1,7 @@
 require 'securerandom'
 require 'net/http'
 
-class CorrelationId
+class MnMiddleware::CorrelationId
   def initialize app
     @app = app
   end

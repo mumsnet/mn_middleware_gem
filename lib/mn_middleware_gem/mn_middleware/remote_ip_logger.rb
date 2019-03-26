@@ -1,4 +1,4 @@
-class RemoteIpLogger
+class MnMiddleware::RemoteIpLogger
   def initialize(app)
     @app = app
   end
