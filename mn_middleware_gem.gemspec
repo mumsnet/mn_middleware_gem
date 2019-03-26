@@ -5,7 +5,7 @@
 #
 Gem::Specification.new do |spec|
   spec.name          = "mn_middleware_gem"
-  spec.version       = "0.1.0"
+  spec.version       = "0.2.0"
   spec.authors       = ["Shamim Mirzai"]
   spec.summary       = "Mumsnet middleware gem for microservices"
   spec.homepage      = "https://github.com/mumsnet/mn_middleware_gem"
@@ -17,6 +17,8 @@ Gem::Specification.new do |spec|
     'lib/mn_middleware_gem/version.rb'
   ]
   spec.require_paths = ["lib"]
+
+  spec.add_dependency 'request_store'
 
   spec.add_development_dependency "bundler", "~> 1.17"
   spec.add_development_dependency "rake", "~> 10.0"
