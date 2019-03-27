@@ -1,5 +1,6 @@
 require 'securerandom'
 require 'net/http'
+require 'request_store'
 
 module MnMiddleware
   class CorrelationId
