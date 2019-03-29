@@ -1,11 +1,11 @@
 
-# lib = File.expand_path("../lib", __FILE__)
-# $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-# require "mn_middleware_gem/version"
-#
+lib = File.expand_path("../lib", __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require "mn_middleware_gem/version"
+
 Gem::Specification.new do |spec|
   spec.name          = "mn_middleware_gem"
-  spec.version       = "1.4.1"
+  spec.version       = MnMiddlewareGem::VERSION
   spec.authors       = ["Shamim Mirzai"]
   spec.summary       = "Mumsnet middleware gem for microservices"
   spec.homepage      = "https://github.com/mumsnet/mn_middleware_gem"
@@ -14,8 +14,8 @@ Gem::Specification.new do |spec|
   spec.files         = [
     'lib/mn_middleware_gem.rb',
     'lib/mn_middleware_gem/version.rb',
-    'lib/mn_middleware_gem/mn_middleware/correlation_id.rb',
-    'lib/mn_middleware_gem/mn_middleware/remote_ip_logger.rb'
+    'lib/mn_middleware_gem/correlation_id.rb',
+    'lib/mn_middleware_gem/remote_ip_logger.rb'
   ]
   spec.require_paths = ["lib"]
 
