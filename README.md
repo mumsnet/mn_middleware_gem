@@ -18,14 +18,6 @@ Add this line to your application's Gemfile:
 gem 'mn_middleware_gem'
 ```
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install mn_middleware_gem
-
 ## Usage
 
 Add the following 2 lines near the top of your `Rails.application.configure do` block 
