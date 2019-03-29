@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mn_middleware_gem (1.4.1)
+    mn_middleware_gem (1.4.2)
       request_store
 
 GEM
